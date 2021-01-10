@@ -1,0 +1,70 @@
+.card {
+  border-radius: 4px;
+  border: 1px solid darkgray;
+  width: 300px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.description {
+  color: rgb(114, 111, 111);
+  font-weight: 700;
+  padding: 20px 30px;
+  text-align: center;
+  border-bottom: 1px solid darkgray;
+
+  .title {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  background-color: transparent;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid blue;
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.stats {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  background-color: rgb(238, 230, 230);
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  .statsItem {
+    flex: 1 1 33.33%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    &:not(:last-child) {
+      border-right: 1px solid gray;
+    }
+  }
+  .label {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .quantity {
+    color: rgb(114, 111, 111);
+    font-weight: 700;
+  }
+}
