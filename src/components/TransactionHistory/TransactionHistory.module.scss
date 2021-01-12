@@ -24,16 +24,4 @@
     font-size: 14px;
     text-transform: capitalize;
   }
-  .tableRow {
-    :not(:last-child) {
-      border-right: 1px solid darkgray;
-    }
-    &:nth-child(2n + 2) {
-      background-color: rgb(173, 176, 221);
-    }
-    border-bottom: black;
-  }
-  .tbodyContent {
-    padding: 10px 20px;
-  }
 }

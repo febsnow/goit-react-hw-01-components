@@ -11,7 +11,7 @@ ReactDOM.render(
   document.getElementById('root'),
 );
 
-const statsItem = document.querySelectorAll('li[class^=Statistics_statsItem]');
+const statsItem = document.querySelectorAll('li[class^=StatsItem_listItem]');
 
 statsItem.forEach(item => {
   item.style.background = setBgColor();

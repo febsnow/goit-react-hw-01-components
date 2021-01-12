@@ -1,0 +1,17 @@
+.listItem {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  &:not(:last-child) {
+    border-right: 1px solid darkgray;
+  }
+}
+.label {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.percentage {
+  font-size: 15px;
+}
